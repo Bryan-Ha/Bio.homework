@@ -1,0 +1,36 @@
+.navbar-brand {
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 0em;
+    border: 0ch;
+}
+.container {
+    background-color: white;
+    width: 100%;
+}
+body {
+    position: static;
+}
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    float: bottom;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #333;
+    }
+    .container {
+        width: 600;
+    }
+}
+img{
+    padding: 30px;
+}
